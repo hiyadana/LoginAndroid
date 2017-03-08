@@ -82,7 +82,8 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="gender"/>
+                android:text="gender"
+                android:visibility="gone"/>
             <RadioGroup
                 android:id="@+id/radiogroup_gender"
                 android:layout_width="wrap_content"
@@ -104,7 +105,8 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="birth"/>
+                android:text="birth"
+                android:visibility="gone"/>
             <NumberPicker
                 android:id="@+id/np_birth"
                 android:layout_width="wrap_content"
